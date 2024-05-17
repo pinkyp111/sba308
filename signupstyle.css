@@ -1,0 +1,151 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #030712;
+}
+body {
+  background-image: url("planets.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.85);
+  width: 300px;
+  padding: 30px;
+  border-radius: 5px;
+  color: #030712;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #light-mode:hover {
+    box-shadow: 5px 10px #888888;
+} */
+
+input {
+  background: #fff;
+  border: 2px solid rgb(34, 52, 59, 10%);
+  border-radius: 4px;
+  height: 32px;
+  width: 100%;
+  margin-block: 10px;
+  padding-left: 40px;
+  outline-color: rgb(152, 222, 255);
+}
+
+.input-icon {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  font-size: 15px;
+  top: 18px;
+  color: #d3d3d3;
+  left: 20px;
+}
+
+#login {
+  background-color: rgb(152, 222, 255);
+  margin: 10px 0;
+  color: #030712;
+}
+
+#login:hover {
+  transform: invert(1);
+}
+
+.mode {
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+  gap: 15px;
+  margin-block: 25px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#light-mode {
+  background-color: #d1d1d1;
+  color: #030712;
+  box-shadow: 0px 0px 10px 5px rgb(241, 241, 241);
+
+  /* width: 60%; */
+}
+
+#dark-mode {
+  background-color: rgb(20, 20, 20, 90%);
+  color: #c9c9c9;
+  box-shadow: 0px 0px 10px;
+}
+
+#troubleshoot {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#troubleshoot input {
+  width: 18px;
+  height: 18px;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+footer {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+footer a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* dark mode css */
+.dark-mode {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 9)),
+    url("planets.jpg");
+}
+
+.dark-mode footer a {
+  color: #ffffff;
+}
+.dark-mode .login-container {
+  box-shadow: 0px 0px 3px 3px rgb(241, 241, 241);
+}
+.dark-mode .icon {
+  color: #030712;
+}
+.dark-mode #login {
+  background-color: #030712;
+  color: #d3d3d3;
+}
+.dark-mode input {
+  outline-color: #030712;
+}
