@@ -12,22 +12,21 @@
     background-size: cover;
     background-color: antiquewhite;
     background-blend-mode: hard-light;
-    background-color: rgb(58, 58, 58);
-    color: white;
+    color:chocolate;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 6em;
+    gap: 4em;
     max-width: 1200px;
     margin: auto;
-    padding: 2rem;
+    padding: 3rem;
     background-color: transparent;
   }
   
   .bookclass {
-    background-color: rgb(26, 40, 53);
+    background-color:beige;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,4 +90,29 @@
     text-decoration: inherit;
     transition: 0.4s ease, text-shadow 0.4s ease-in-out;
   }
-  
+span{
+  display: flex;
+  justify-content: center;
+}  
+
+.header {
+  background-image: url("/images/header.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  display: block;
+}
+
+/* @media only screen and (min-width: 768px) { */
+  /* .wrap { */
+      /* max-width: 1200px; */
+  /* } */
+/* } */
+/* .wrap {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  zoom: 1;
+} */

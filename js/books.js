@@ -1,5 +1,10 @@
 
-import data from "./data";
+import data from "./data.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+  generateProductBooks(data);
+});
+
 
 function generateProductBooks(data) {
   const bookGrid = document.getElementById("bookGrid");
@@ -12,15 +17,12 @@ function generateProductBooks(data) {
                 <img src="${item.img}" alt="${item.genre}">
             </div>
             <div class="details">
-                <h3>${item.name} ${item.genre} - <i>${item.price}</i></h3>
+                <h3>${item.name} <br/> <span><i>${item.price}</i></span></h3>
             </div>
         `;
     bookGrid.appendChild(book);
   });
+  console.log("bookgrid=",bookGrid);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  generateProductBooks(data);
 
-  
-});

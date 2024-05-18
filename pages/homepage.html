@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image:url(./images/bkgimage1.jpg);
+  background-image:url(/images/bkgimage.jpg);
 }
 p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -20,12 +20,11 @@ p{
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
-  display: flexbox;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration:none;
+  color: white;
+  text-decoration: none;
   font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
 }
 
 .topnav a:hover {
@@ -33,20 +32,32 @@ p{
   color: black;
 }
 
-.topnav a.active {
+/*.topnav a.active {
+  float: left;
+  padding: 12px;
   color: white;
-}
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  /*text-align: center;*/
+
 </style>
 </head>
 <body>
+  <header class="header" role="banner">
+					
+    <div id="inner-header" class="wrap clearfix">
+      <!-- <div id="logo" class="desktop"><a href="https://cathycarrwrites.com" data-wpel-link="internal"><img src="https://cathycarrwrites.com/wp-content/themes/CathyCarr2022/library/images/logo.png" alt="Cathy Carr"></a></div>
+      <div id="logo" class="mobile"><a href="https://cathycarrwrites.com" data-wpel-link="internal"><img src="https://cathycarrwrites.com/wp-content/themes/CathyCarr2022/library/images/logo-mobile.png" alt="Cathy Carr"></a></div> -->
+    </div> <!-- end #inner-header -->
 
-<div class="topnav">
+  </header>
+  <div class="topnav">
   <a class="active" href="#About">About</a>
   <a href="#Books">Books</a>
-  <a href="#For Kids">For Kids</a>
-  <a href="#For Adults">For Adults</a>
+  <a href="#Login">Login</a>
   <a href="#Sign Up">Sign Up</a>
-  <a href="#News">News</a>
+  
 
 </div>
 
