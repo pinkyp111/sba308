@@ -12,37 +12,69 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .navbar {
-        width: 100%;
+    /*.navbar {*/
+    /*    width: 100%;*/
+    /*    background-color: #555;*/
+    /*    overflow: auto;*/
+    /*}*/
+
+    /*.navbar a {*/
+    /*    float: left;*/
+    /*    padding: 12px;*/
+    /*    color: white;*/
+    /*    text-decoration: none;*/
+    /*    font-size: 17px;*/
+    /*    width: 25%; !* Four links of equal widths *!*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /*.navbar a:hover {*/
+    /*    background-color: #000;*/
+    /*}*/
+
+    /*.navbar a.active {*/
+    /*    background-color: #000;*/
+    /*}*/
+
+    /*@media screen and (max-width: 500px) {*/
+    /*    .navbar a {*/
+    /*        float: none;*/
+    /*        display: block;*/
+    /*        width: 100%;*/
+    /*        text-align: left;*/
+    /*    }*/
+    /*}*/
+
+    nav {
         background-color: #555;
-        overflow: auto;
     }
 
-    .navbar a {
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        display: inline;
+        background-color: #f2f2f2;
         float: left;
         padding: 12px;
-        color: white;
+        color: black;
         text-decoration: none;
         font-size: 17px;
         width: 25%; /* Four links of equal widths */
         text-align: center;
     }
 
-    .navbar a:hover {
-        background-color: #000;
+    nav a:hover {
+        background-color: grey;
+        color : black;
     }
 
-    .navbar a.active {
+    nav a.active {
         background-color: #000;
-    }
-
-    @media screen and (max-width: 500px) {
-        .navbar a {
-            float: none;
-            display: block;
-            width: 100%;
-            text-align: left;
-        }
+        color: white;
     }
 
     .header {
@@ -64,12 +96,22 @@
     <img src="images/library.jpg" alt="picture of books">
 </div>
 
-<div class="navbar">
-    <a id="home_link" data-page="home" class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-    <a id="books_link" data-page="books" ><i class="fa fa-fw fa-book"></i> Books</a>
-    <a id="register_link" data-page="register" ><i class="fa fa-fw fa-registered"></i> Register</a>
-    <a id="user_link" data-page="user" ><i class="fa fa-fw fa-user"></i> Login</a>
-</div>
+<!--<div class="navbar">-->
+<nav>
+    <ul>
+        <li>
+            <a id="home_link" data-page="home" class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a id="books_link" data-page="books" href="#"><i class="fa fa-fw fa-book"></i> Books</a>
+            <a id="register_link" data-page="register" href="#"><i class="fa fa-fw fa-registered"></i> Register</a>
+            <a id="user_link" data-page="user" href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        </li>
+    </ul>
+</nav>
+<!--    <a id="home_link" data-page="home" class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>-->
+<!--    <a id="books_link" data-page="books" ><i class="fa fa-fw fa-book"></i> Books</a>-->
+<!--    <a id="register_link" data-page="register" ><i class="fa fa-fw fa-registered"></i> Register</a>-->
+<!--    <a id="user_link" data-page="user" ><i class="fa fa-fw fa-user"></i> Login</a>-->
+<!--</div>-->
 
 <div id="content"></div>
 
