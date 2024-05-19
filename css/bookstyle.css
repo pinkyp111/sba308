@@ -1,21 +1,4 @@
-
-:root {
-    --base-color: #171717;
-    --secondary-color: #a1460e;
-    --action-color: #cc6d3d;
-    --layover-color: #d2e1f36c;
-  }
-  
-  body {
-    margin-top: 10rem;
-    height: 125vh;
-    background-size: cover;
-    background-color: antiquewhite;
-    background-blend-mode: hard-light;
-    color:chocolate;
-  }
-
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 4em;
@@ -23,10 +6,10 @@
     margin: auto;
     padding: 3rem;
     background-color: transparent;
-  }
-  
-  .bookclass {
-    background-color:beige;
+}
+
+.bookclass {
+    background-color: beige;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,28 +17,28 @@
     border-radius: 5px;
     transition: all 0.3s ease;
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.868);
-  }
-  
-  .bookclass:hover {
+}
+
+.bookclass:hover {
     box-shadow: 0 0 20px 5px rgba(255, 157, 72, 0.868);
-  }
-  
-  .image-container {
+}
+
+.image-container {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
-  
-  .image-container img {
+}
+
+.image-container img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     height: 15vh;
     color: white;
     position: fixed;
@@ -67,52 +50,31 @@
     justify-content: space-around;
     align-items: center;
     background-image: linear-gradient(
-      rgba(211, 211, 211, 1) 0%,
-      rgba(211, 211, 211, 0.5) 50%,
-      rgba(211, 211, 211, 0) 100%
+            rgba(211, 211, 211, 1) 0%,
+            rgba(211, 211, 211, 0.5) 50%,
+            rgba(211, 211, 211, 0) 100%
     );
-  
+
     padding: 1rem;
     height: 20vh;
-  }
+}
 
-  ul {
+ul {
     list-style: none;
     display: flex;
     justify-content: end;
     gap: 2em;
-  }
-  
-  a {
+}
+
+a {
     font-weight: 500;
     font-size: 16px;
     color: white;
     text-decoration: inherit;
     transition: 0.4s ease, text-shadow 0.4s ease-in-out;
-  }
-span{
-  display: flex;
-  justify-content: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
 }  
-
-.header {
-  background-image: url("/images/header.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-color: #FFF;
-  display: block;
-}
-
-/* @media only screen and (min-width: 768px) { */
-  /* .wrap { */
-      /* max-width: 1200px; */
-  /* } */
-/* } */
-/* .wrap {
-  width: 92%;
-  margin: 0 auto;
-}
-
-.clearfix {
-  zoom: 1;
-} */
