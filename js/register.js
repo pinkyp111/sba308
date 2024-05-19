@@ -5,20 +5,20 @@ function generateRegistrationPage() {
                 <form action="#">
                     <div class="input-icon">
                         <i class="fa-solid fa-user icon"></i>
-                        <input type="text" name="username" class="username" placeholder="Username" autocomplete="off">
+                        <input type="text" name="username" class="username" placeholder="Username" autocomplete="off" required>
     
                     </div>
                     <div class="input-icon">
                         <i class="fa-solid fa-envelope icon"></i>
-                        <input type="text" name="email" placeholder="Email" autocomplete="off">
+                        <input type="email" name="email" placeholder="Email" autocomplete="off" required>
                     </div>
                     <div class="input-icon">
                         <i class="fa-solid fa-lock icon"></i>
-                        <input type="text" name="password" placeholder="Password" autocomplete="off">
+                        <input type="password" name="password" placeholder="Password" autocomplete="off" required>
                     </div>
                     <div class="input-icon">
                         <i class="fa-solid fa fa-phone icon"></i>
-                        <input type="text" name="phonenumber" placeholder="Phonenumber" autocomplete="off">
+                        <input type="tel" name="phonenumber" placeholder="phone: XXX-XXX-XXXX" autocomplete="off"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </div>
     
     
