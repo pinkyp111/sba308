@@ -28,7 +28,7 @@ function generateRegistrationPage() {
                             <label for="remember">Remember Me</label>
                         </div>
                         <div class="forgotPassword">
-                            <a href="#" id="forgotPassword">Forgot pasword?</a>
+                            <a href="#" id="forgotPassword">Forgot password?</a>
                         </div>
                     </div>
                     <button id="login"> Sign Up </button>
