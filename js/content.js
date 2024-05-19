@@ -21,7 +21,7 @@ document.querySelectorAll('nav a').forEach(link => {
 });
 
 // make home page active on page load
-window.onload = function() {
+window.onload = function () {
     document.getElementById('homeNav').click();
 };
 
