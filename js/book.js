@@ -25,7 +25,7 @@ function generateBooksPage() {
                 <div class="details">
                     <h3>${item.name} <br/></h3>
                 </div>
-                <div class="borrow-container">
+                <div id="borrow-container">
                 <button style="color:black; background-color:white;">Borrow</button>
 </div>
             </div>
