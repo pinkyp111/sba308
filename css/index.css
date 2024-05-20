@@ -39,6 +39,12 @@ nav a.active {
 .header {
     display: block;
     padding: 0;
+    font-style:inherit;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    color: crimson;
+    text-align: center;
 }
 
 img {

@@ -1,6 +1,7 @@
 import generateBooksPage from "./book.js";
 import generateRegistrationPage from "./register.js";
 import generateHomePage from "./home.js";
+import generateCommunityPage from "./community.js";
 
 // Attach the event listener to the nav container
 document.querySelector('nav').addEventListener('click', function (event) {
@@ -49,6 +50,9 @@ function loadPageContent(page) {
         replaceContentInContainer("content", elemVal);
     } else if (page === 'register') {
         let elemVal = generateRegistrationPage();
+        replaceContentInContainer("content", elemVal);
+    } else if (page === 'community') {
+        let elemVal = generateCommunityPage();
         replaceContentInContainer("content", elemVal);
     }
 
