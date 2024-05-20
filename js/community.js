@@ -1,4 +1,5 @@
 function generateCommunityPage() {
+    
 
     return `
     <p>The Arizona Community Foundation (ACF) is a philanthropic institution that was established in 1978.
@@ -8,14 +9,10 @@ function generateCommunityPage() {
      health innovations, sports & athletics, and quality education. It also has initiatives for Asian American, Black, Latino,
      LGBTQ, and Native American philanthropy.ACF has regional offices across Arizona, allowing them to serve specific communities and address local needs effectively.
     They offer a range of services for donors, nonprofits, and communities, aiming to create a lasting impact</p>
-    <div id="new-id">
-        <label for="country">Country:</label>
-        <select id="country" name="country">
-            <option value="usa">United States</option>
-            <option value="canada">Canada</option>
-            <option value="uk">United Kingdom</option>
-        </select>
-    </div>
+    
+    <iframe src="https://giphy.com/embed/fXnx6vSSrzY92rTONJ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-fXnx6vSSrzY92rTONJ">via GIPHY</a></p>
+    
+     
 `;
 }
 export default generateCommunityPage;
