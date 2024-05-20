@@ -2,9 +2,8 @@ function generateHomePage() {
     return `
     <div class="home-page">
     <p align="none"><br><span style="color: crimson; font-weight: bold;">Announcement:</span>
-        <br>Welcome to Peoria Public Library
         <br>
-         Peoria Public Library has been the heart of our community for over 50 years, providing a space for learning,
+         This Public Library has been the heart of our community for over 50 years, providing a space for learning,
          creativity, and connection. Our mission is 
         to empower individuals with knowledge and provide access to a world of ideas and information.
         <br>
