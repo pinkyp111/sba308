@@ -1,6 +1,6 @@
 # Library Website Readme
 
-Welcome to the repository for our Peoria Public Library Website. This document provides an overview of the website's structure and content across its four main pages.
+This repository is for a Library Website. This document provides an overview of the website's structure and content across its four main pages.
 
 ## Website Structure
 
