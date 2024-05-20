@@ -23,7 +23,7 @@ function generateBooksPage() {
                     <img src="${item.img}" alt="${item.genre}">
                 </div>
                 <div class="details">
-                    <h3>${item.name} <br/> <span><i>${item.price}</i></span></h3>
+                    <h3>${item.name} <br/></h3>
                 </div>
             </div>
            
