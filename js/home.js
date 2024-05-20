@@ -2,13 +2,20 @@ function generateHomePage() {
     return `
     <div class="home-page">
     <p align="none"><br><span style="color: crimson; font-weight: bold;">Announcement:</span>
-        <br>The Peoria Main Library and Sunrise Mountain Library will be closed Monday, May. 27, in observance of
-        Memorial Day.
-        The buildings will reopen on the following Tuesday, May 28, at 9 a.m. Library materials that would have been due
-        on May 27 will not be due until the next business day.The outside bookdrops will be unavailable during the
-        closure.Enriching Peoria’s evolving community through equal access to information, while offering inclusive
-        programs,
-        innovative technology and diverse collections.
+        <br>Welcome to Peoria Public Library
+        <br>
+         Peoria Public Library has been the heart of our community for over 50 years, providing a space for learning,
+         creativity, and connection. Our mission is 
+        to empower individuals with knowledge and provide access to a world of ideas and information.
+        <br>
+        <ul>
+       <h3 style="color: crimson; font-weight: bold;"> Facilities and Services </h3>
+        <li>A vast collection of books, e-books, and audiobooks across all genres.</li>
+        <li>Public computers with internet access and free Wi-Fi throughout the building.</li>
+        <li>A dedicated children’s section with regular storytime sessions.</li>
+        <li>Study rooms and quiet areas for individual work or group projects.</li>
+        <li>A community room hosting a variety of events, workshops, and classes.</li>
+        <li>Access to online databases, research tools, and educational resources.</li>
     </p>
     <div class="ppl3-parts-1cp">
         <h4 style="color: crimson;">Holiday & Early Closures</h4>
