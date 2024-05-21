@@ -36,14 +36,18 @@ Offers insights into local community.
 **Pages Overview**
 <br>
 **Home Page**:The Home Page serves as the landing page, featuring:
+<br>
 Library Information: Details about our location, opening hours, contact info, and available services.
+<br>
 Holiday Closures: A list of dates when the library will be closed (including public holidays and special events).
 <br>
 **Register Page**
+<br>
 The Register Page streamlines user registrations:
 A straightforward registration form for new users to create an account.
 <br>
 **Books Page**
+<br>
 The Books Page invites users to explore our book collection:
 Book Display: Books are presented in a visually appealing grid layout for easy browsing.
 Genre Dropdown Menu: Users can filter books by genre using a convenient dropdown menu.
