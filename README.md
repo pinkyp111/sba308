@@ -14,23 +14,23 @@ Contact
 The website comprises the following main pages:
 
 **Home Page:**
-Provides essential information about the library, including location, hours, and services.
+Provides essential information about the library, including library information, hours, and services.
 <br>
 **Register Page** Allows new users to sign up for library membership.
 <br>
 **Books Page:** Showcases our diverse book collection, organized by genre.
 <br>
 **Community Information Page:**
-Offers insights into local community events and attractions.
+Offers insights into local community.
 <br>
 
 **Technologies Used**
 <br>
-**HTML (Hypertext Markup Language)**: The backbone of our web pages, providing structure and content.
+**HTML (Hypertext Markup Language)**: The backbone of the index page (index.html).
 <br>
 **CSS (Cascading Style Sheets)**: Used for styling and layout, ensuring a visually appealing user experience.
 <br>
-**JavaScript**: Enhances interactivity, enabling dynamic features and smooth interactions.
+**JavaScript**: Dynamically created Home Page, Register Page,Books Page,Community Page to enhance interactivity and smooth interactions .
 <br>
 
 **Pages Overview**
