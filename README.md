@@ -1,6 +1,7 @@
 Library Website <br>
 --------------
-Welcome to the Library Website repository:<br>
+**Welcome to the Library Website repository:**
+<br>
 This project aims to create an online platform for our library, allowing users to explore our services, discover books, and stay informed about community events.
 
 **Table of Contents**<br>
