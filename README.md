@@ -50,7 +50,7 @@ A straightforward registration form for new users to create an account.
 <br>
 The Books Page invites users to explore our book collection:
 Book Display: Books are presented in a visually appealing grid layout for easy browsing.
-Genre Dropdown Menu: Users can filter books by genre using a convenient dropdown menu.
+Genre Dropdown Menu: Displays different genre of books available;
 <br>
 **Community Information Page**
 Learn more about our local community:
