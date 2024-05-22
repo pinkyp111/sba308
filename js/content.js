@@ -44,23 +44,23 @@ function toggleActiveClass(event) {
 function loadPageContent(page) {
     if (page === 'book') {
         let elemVal = generateBooksPage();
-        replaceContentInContainer("content", elemVal);
+        replaceContentInContainer("content-div", elemVal);
     } else if (page === 'home') {
         let elemVal = generateHomePage();
-        replaceContentInContainer("content", elemVal);
+        replaceContentInContainer("content-div", elemVal);
     } else if (page === 'register') {
         let elemVal = generateRegistrationPage();
-        replaceContentInContainer("content", elemVal);
+        replaceContentInContainer("content-div", elemVal);
     } else if (page === 'community') {
         let elemVal = generateCommunityPage();
-        replaceContentInContainer("content", elemVal);
+        replaceContentInContainer("content-div", elemVal);
     }
 
 }
 
 // add html dynamically to given html element
-function replaceContentInContainer(id, content) {
-    let container = document.getElementById(id);
-    container.innerHTML = content;
+function replaceContentInContainer(targetId, contentToBeReplaced) {
+    let container = document.getElementById(targetId);
+    container.innerHTML = contentToBeReplaced;
 }
 
