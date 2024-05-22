@@ -16,7 +16,9 @@ The website comprises the following main pages:
 **Home Page:**
 Provides essential information about the library, including library information, hours, and services.
 <br>
-**Register Page** Allows new users to sign up for library membership.
+**Login/Register Page** Allows new users to sign up for library membership.
+<br>
+Existing Users can login.
 <br>
 **Books Page:** Showcases our diverse book collection, organized by genre.
 <br>
@@ -41,10 +43,10 @@ Library Information: Details about our location, opening hours, contact info, an
 <br>
 Holiday Closures: A list of dates when the library will be closed (including public holidays and special events).
 <br>
-**Register Page**
+**Login/Register Page**
 <br>
-The Register Page streamlines user registrations:
-A straightforward registration form for new users to create an account.
+The Login/Register Page streamlines user registrations and logins.
+A straightforward login/registration form for users to create an account and login into their account.
 <br>
 **Books Page**
 <br>
