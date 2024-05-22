@@ -1,5 +1,6 @@
 import generateBooksPage from "./book.js";
 import generateRegistrationPage from "./register.js";
+import { generateLoginPage, addEventListenerToRegister } from "./login.js";
 import generateHomePage from "./home.js";
 import generateCommunityPage from "./community.js";
 
@@ -48,6 +49,10 @@ function loadPageContent(page) {
     } else if (page === 'home') {
         let elemVal = generateHomePage();
         replaceContentInContainer("content-div", elemVal);
+    } else if (page === 'login') {
+        let elemVal = generateLoginPage();
+        replaceContentInContainer("content-div", elemVal);
+        addEventListenerToRegister();
     } else if (page === 'register') {
         let elemVal = generateRegistrationPage();
         replaceContentInContainer("content-div", elemVal);
@@ -64,3 +69,4 @@ function replaceContentInContainer(targetId, contentToBeReplaced) {
     container.innerHTML = contentToBeReplaced;
 }
 
+export default loadPageContent;
